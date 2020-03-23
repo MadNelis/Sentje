@@ -61,5 +61,5 @@ Route::delete('/bank_accounts/{id}/remove_bank_account', 'BankAccountController@
 Route::get('/{any}','DashboardController@index');
 
 Route::get('/testdrive', function() {
-    Storage::disk('google')->put('test.txt', 'Hello World');
+    Storage::cloud()->put('test.txt', 'Hello World');
 });
