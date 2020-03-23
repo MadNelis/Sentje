@@ -18,7 +18,7 @@ class CreatePaymentsTable extends Migration
             $table->string('payer_name')->nullable();
             $table->string('description');
             $table->decimal('amount', 9, 2);
-            $table->string('currency');
+            $table->string('currency', 3);
             $table->enum('type', ['full', 'plan_payment', 'donation']);
             $table->string('note')->nullable();
             $table->string('image_path')->nullable();

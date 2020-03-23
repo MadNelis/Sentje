@@ -17,7 +17,7 @@ class CreatePaymentrequestsTable extends Migration
             $table->bigIncrements('id');
             $table->string('description');
             $table->decimal('amount', 9, 2);
-            $table->string('currency');
+            $table->string('currency', 3);
             $table->unsignedBigInteger('bank_account_id');
             $table->timestamps();
 
