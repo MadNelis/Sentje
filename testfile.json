@@ -1,0 +1,33 @@
+{
+    "name": "ING Rekening",
+    "IBAN": "eyJpdiI6Ijd0UmtKcVlIY2ZHMjQwQzRIcFMyS0E9PSIsInZhbHVlIjoiQWtFZUtuQ2tiZlI2RFdDYVhCcTRtZHBsY2d3ZnB4UHZBZFwvaGxBTjJNZTA9IiwibWFjIjoiNzRkNTk1OTRhZjJlODM5N2YyZTU5NGEzNjllOGVhMWRlZDNjZTgzNGJkNzZmNGJiNjM3NDdlMzlhYWFlYWY3MyJ9",
+    "payments": [
+        {
+            "payer_name": "Harold",
+            "description": "Etentje",
+            "amount": "999.00",
+            "currency": "EUR",
+            "type": "full",
+            "note": "Dat ene etentje witte wel",
+            "paid_at": "2020-03-18 22:13:18"
+        },
+        {
+            "payer_name": "Lisa",
+            "description": "Etentje",
+            "amount": "999.00",
+            "currency": "EUR",
+            "type": "full",
+            "note": "Dat ene etentje ja",
+            "paid_at": "2020-03-18 22:13:18"
+        },
+        {
+            "payer_name": "Kees",
+            "description": "Etentje",
+            "amount": "999.00",
+            "currency": "EUR",
+            "type": "full",
+            "note": "Kan me niet herinneren",
+            "paid_at": "2020-03-18 22:13:18"
+        }
+    ]
+}
